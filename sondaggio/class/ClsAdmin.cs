@@ -12,6 +12,13 @@ namespace sondaggio
         {
 
         }
+
+        public ClsAdmin(string username, string password)
+        {
+            Username = username;
+            Password = password;
+        }
+
         public ClsAdmin(string username, string password, string nome, string cognome, DateTime dataDiNascita, eCOMUNE comuneDiNascita, eSESSO sesso, string email)
         {
             Username = username;

@@ -131,5 +131,10 @@ namespace sondaggio
         {
             DB.SalvaDati();
         }
+
+        private void lvDomande_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            // mikeaal è gay
+        }
     }
 }
