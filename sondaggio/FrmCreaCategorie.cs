@@ -46,7 +46,7 @@ namespace sondaggio
                         string nomeFormattato = tbNomeCategoria.Text.Trim().ToUpper().Substring(0, 1) + tbNomeCategoria.Text.Trim().ToLower().Substring(1);
                         ClsCategoria categoria = new ClsCategoria(nomeFormattato);
                         DB.Categorie.Add(categoria);
-                        MessageBox.Show("Categoria aggiunta con successo!", "Successo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show("Categoria aggiunta con successo!!!!!!!!", "Successo", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                     }
                     tbNomeCategoria.Text = "";
