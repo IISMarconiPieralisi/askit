@@ -102,6 +102,7 @@
             this.lvDomande.TabIndex = 125;
             this.lvDomande.UseCompatibleStateImageBehavior = false;
             this.lvDomande.View = System.Windows.Forms.View.Details;
+            this.lvDomande.SelectedIndexChanged += new System.EventHandler(this.lvDomande_SelectedIndexChanged);
             // 
             // columnHeader1
             // 
