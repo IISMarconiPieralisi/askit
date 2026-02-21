@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace sondaggio
 {
-    public partial class FrmCreaDomande : Form
+    public partial class FrmCreaDomande : Form // Michael Luminari
     {
         bool domandaAperta;
         ClsSondaggio _sondaggio;
